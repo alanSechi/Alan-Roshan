@@ -14,9 +14,17 @@
 
 
 <form action="#" id="survey-form">
-  <label for="name">Name:</label><input type="name" name="name" id="name" required>
-<label for="email">Email:</label><input type="email" name="email" id="email" required>
-<label for="age">Age:</label><input type="number" name="age" id="number">
+  <label for="name" id="name-label">Name:</label><input type="name" name="name" id="name" placeholder="Enter name" required>
+<label for="email" id="email-label">Email:</label><input type="email" name="email" id="email" placeholder="Enter email" required>
+<label for="age" id="number-label">Age:</label><input type="number" name="age" id="number" placeholder="Enter age" min="0" max="100">
+<select name="" id="dropdown">
+  <option value="">student</option>
+  <option value="">full time job</option>
+  <option value="">full time learner</option>
+  <option value="">perfer not to say yes</option>
+  <option value="">other</option>
+
+</select>
 </form>
 
 
