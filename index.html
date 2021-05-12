@@ -14,40 +14,51 @@
 
 
 <form action="#" id="survey-form">
-  <label for="name" id="name-label">Name:</label><input type="name" name="name" id="name" placeholder="Enter name" required>
-  <br>
-<label for="email" id="email-label">Email:</label><input type="email" name="email" id="email" placeholder="Enter email" required>
-<br>
-<label for="age" id="number-label">Age:</label><input type="number" name="age" id="number" placeholder="Enter age" min="0" max="100">
-<br>
-<select name="" id="dropdown">
-  <option value="">student</option>
-  <option value="">full time job</option>
-  <option value="">full time learner</option>
-  <option value="">perfer not to say yes</option>
-  <option value="">other</option>
+  <div class="form-group">
+    <label for="name" id="name-label">Name:</label><input type="name" name="name" id="name" placeholder="Enter name" required>
+  </div>
+  <div class="form-group">
+    <label for="email" id="email-label">Email:</label><input type="email" name="email" id="email" placeholder="Enter email" required>
+  </div>
+  <div class="form-group">
+    <label for="age" id="number-label">Age:</label><input type="number" name="age" id="number" placeholder="Enter age" min="0" max="100">
+  </div>
+  <div class="form-group">
 
-</select>
-<br>
-<input type="radio" id="male" name="gender" value="male">
-<label for="male">Male</label><br>
-<br>
-<input type="radio" id="female" name="gender" value="female">
-<label for="female">Female</label><br>
-<br>
-<input type="radio" id="other" name="gender" value="other">
-<label for="other">Other</label>
-<br>
+    <select name="" id="dropdown">
+      <option value="">student</option>
+      <option value="">full time job</option>
+      <option value="">full time learner</option>
+      <option value="">perfer not to say yes</option>
+      <option value="">other</option>
+    
+    </select>
+  </div>
+  <div class="form-group">
 
-<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-<label for="vehicle1"> I have a bike</label><br>
-<br>
-<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-<label for="vehicle2"> I have a car</label><br>
-<br>
-<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-<label for="vehicle3"> I have a boat</label><br>
-<br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label><br>
+    <br>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br>
+    <br>
+    <input type="radio" id="other" name="gender" value="other">
+    <label for="other">Other</label>
+    <br>
+  </div>
+
+  <div class="form-group">
+
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br>
+    <br>
+  </div>
 <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
 <br>
 <button type="submit" id="submit">Submit</button>

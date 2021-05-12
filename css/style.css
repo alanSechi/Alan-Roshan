@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("../img/bg.jpg");
+    color: white;
+
+}
+
+#survey-form{
+    width: 40%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 20px;
+}
+#title,
+#description{
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
